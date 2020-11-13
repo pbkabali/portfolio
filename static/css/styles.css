@@ -1,0 +1,185 @@
+:root {
+  --theme-color1: #E5E5E5;
+  --theme-color2: #fff;
+  --theme-color3: #F9855B;
+  --theme-color4: #000;
+  ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-color1);
+  font-family: 'Poppins', sans-serif;
+  /* background: url(https://s3-alpha-sig.figma.com/img/abe3/5840/d659d5e552b46a354ae50dde02fbcac5?Expires=1606089600&Signature=SnpactX0vEXE~RlDvSm~S8-qZfL0mfDMmAfEGKaw4ZMUh~M-nS6makhtkmP6kq1wObbt0bMbFHJ99Wb8JkuVSXDpMCaj3BSJGO18jHv9p8SKh0Jkd5eBQrscIM6aTNOjpOsi2bQHd5uIBtb3K9iQ-whLWVUK3cGtTO6qxl1VgVFY8HxsLLdtG0MtX~6YL9IQVo8jUs6VQKp7in39LkbKw7tDttriWw2i5YdxQ7niFYnwJ7BkB2y9s8fhishPsaEV2FBKQjPXlAvbGwExUY0eHemZDuQpq3TpWY~JHGUyTyOa8RvdyhoMrDk4rlsYyPSV24fhI2dcP7~NIn8eaEV2Sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA); */
+}
+
+a {
+  text-decoration: none;
+  color: var(--theme-color4);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-align-start {
+  align-items: flex-start;
+}
+
+.flex-content-center {
+  justify-content: center;
+}
+
+.flex-content-apart {
+  justify-content: space-between;
+}
+
+.flex-content-end {
+  justify-content: flex-end;
+}
+
+.flex-content-around {
+  justify-content: space-around;
+}
+
+.hide-small {
+  display: none;
+}
+
+.page-margin {
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
+.text-color-home {
+  color: var(--theme-color3);
+}
+
+.bg-color-home {
+  background-color: var(--theme-color3);
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size-small {
+  font-size: small;
+  font-weight: 200;
+}
+
+.font-size-tiny {
+  font-size: smaller;
+}
+
+.font-size-large {
+  font-size: x-large;
+}
+
+/* =================== Small-section-Header ==================== */
+.header {
+  padding: 2vh 0 2vh 0;
+}
+
+.logo {
+  padding-right: 7%;
+  letter-spacing: -2.5px;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+/* =================== Small-section-Welcome ==================== */
+
+.welcome {
+  min-height: 60vh;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.heading {
+  margin: 4% 0 4% 0;
+}
+
+.p-lower-margin {
+  margin-bottom: 2vh;
+}
+
+.social-icons-div {
+  width: 100%;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.social-icon {
+  margin-right: 5px;
+}
+
+/* =================== Small-section-Footer ==================== */
+
+
+
+/* =================== LARGE SCREEN STYLES ==================== */
+@media screen and (min-width: 768px) {
+
+  .display-large-inline {
+    display: inline;
+  }
+
+  .font-size-tiny {
+    font-size: small;
+  }
+
+  .font-size-small{
+    font-size: medium;
+  }
+
+  .font-size-large {
+    font-size: xx-large;
+  }
+  
+  /* =================== Large-section-Header ==================== */
+  .nav {
+    justify-content: flex-end;
+  }
+
+  .nav-link {
+    margin-left: 5vw;
+  }
+  
+  /* =================== Large-section-Welcome ==================== */
+
+  .welcome {
+    max-width: 55%;
+  }
+
+  .social-icons-div {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icons-pack {
+    margin-left: 5%;
+  }
+  
+  /* =================== Large-section-Footer ==================== */
+
+  
+}
+
