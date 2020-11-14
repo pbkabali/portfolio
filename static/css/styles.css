@@ -2,7 +2,7 @@
   --theme-color1: #E5E5E5;
   --theme-color2: #fff;
   --theme-color3: #F9855B;
-  --theme-color4: #000;
+  --theme-color4: #423B39;
   ;
 }
 
@@ -53,6 +53,10 @@ a {
   justify-content: flex-end;
 }
 
+.flex-content-start {
+  justify-content: flex-start;
+}
+
 .flex-content-around {
   justify-content: space-around;
 }
@@ -78,13 +82,17 @@ a {
   font-weight: bold;
 }
 
+.font-size-tiny {
+  font-size: smaller;
+}
+
 .font-size-small {
   font-size: small;
   font-weight: 200;
 }
 
-.font-size-tiny {
-  font-size: smaller;
+.font-size-medium {
+  font-size: medium;
 }
 
 .font-size-large {
@@ -131,6 +139,40 @@ a {
   margin-right: 5px;
 }
 
+/* =================== Small-section-Projects ==================== */
+
+.top-project {
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+.project-image {
+  height: 65vw;
+  padding: 10%;
+  background-color: red;
+}
+
+.project-title {
+  color: var(--theme-color2);
+}
+
+.built-with {
+  color: var(--theme-color2);
+  background-color: var(--theme-color4);
+  padding: 1%;
+  margin: 2% 2% 2% 0;
+}
+
+.btn-1 {
+width: 100%;
+border-radius: 0;
+border-width: 0;
+background-color: var(--theme-color3);
+color: var(--theme-color2);
+padding: 3%;
+font-size: medium;
+}
+
 /* =================== Small-section-Footer ==================== */
 
 
@@ -142,12 +184,24 @@ a {
     display: inline;
   }
 
+  .display-large-flex {
+    display: flex;
+  }
+
+  .hide-large {
+    display: none;
+  }
+
   .font-size-tiny {
     font-size: small;
   }
 
   .font-size-small{
     font-size: medium;
+  }
+
+  .font-size-medium {
+    font-size: x-large;
   }
 
   .font-size-large {
@@ -177,6 +231,54 @@ a {
   .icons-pack {
     margin-left: 5%;
   }
+
+  /* =================== Large-section-Projects ==================== */
+
+
+  .top-project {
+    margin-bottom: 1vw;
+    width: 43.5vw;
+  }
+
+  .lower-project {
+    width: 28.67vw;
+  }
+
+  .lower-project-title {
+    font-size: x-large;
+  }
+  
+  .project-image {
+    flex-direction: column;
+    align-items: baseline;
+    height: 30vw;
+    padding: 5%;
+  }
+  
+  .lower-project-image {
+    height: 20vw;
+  }
+
+  .project-details {
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .project-image:hover .hide-small {
+    display: flex;
+  }
+  .lower-built-with {
+    font-size: small;
+    padding: 1%;
+    margin: 2% 2% 2% 0;
+  }
+
+  .see-project-button {
+    font-size: small;
+    width: fit-content;
+  }
+
   
   /* =================== Large-section-Footer ==================== */
 
