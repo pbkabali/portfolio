@@ -19,9 +19,9 @@
       </div>
       <nav class="flex flex-content-around nav font-size-small">
         <a href="#" class="nav-link text-color-home hide-small display-large-inline font-size-tiny font-bold">&lt/Intro&gt</a>
-        <a href="#" class="nav-link font-size-tiny">Portfolio</a>
-        <a href="#" class="nav-link font-size-tiny">About</a>
-        <a href="#" class="nav-link font-size-tiny">Contact</a>
+        <a href="#projects" class="nav-link font-size-tiny">Portfolio</a>
+        <a href="#about" class="nav-link font-size-tiny">About</a>
+        <a href="#contact" class="nav-link font-size-tiny">Contact</a>
       </nav>
     </header>
     <main class="page-margin">
@@ -48,7 +48,7 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <h3 class="heading">My best works</h3>
         <div class="flex flex-content-apart">
           <div class="top-project">
@@ -159,7 +159,7 @@
           </div>
         </div>
       </section>
-      <section class="flex about flex-content-apart">
+      <section id="about" class="flex about flex-content-apart">
         <div class="about-left">
           <h3 class="heading">About me</h3>
           <div class="narration">
@@ -200,32 +200,32 @@
           </div>
         </div>
       </section>
-      <footer>
-        <h3 class="heading">Interested in collaborating?</h3>
-        <p class="p-lower-margin font-size-small">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that need coding, I’d love to help
-          you with it.
-        </p>
-        <form action="" class="contact-form">
-          <input type="text" id="fname" placeholder="Name*">
-          <input type="text" id="fname" placeholder="Email*">
-          <input type="text" id="fname" placeholder="Message*">
-          <input type="submit" value="Get in touch">
-        </form>
-        <div class="intro-social">
-          engineerbpk@gmail.com
-          <div class="social-icons">
-            <i class="fa fa-home social-icon"></i>
-            <i class="fa fa-home social-icon"></i>
-            <i class="fa fa-home social-icon"></i>
-            <i class="fa fa-home social-icon"></i>
-          </div>
-        </div>
-        <p>
-          © 2020 Paul Balitema Kabali
-        </p>
-      </footer>
     </main>
+    <footer id="contact" class="footer flex">
+      <h3 class="heading font-size-large invitation">Interested in collaborating?</h3>
+      <p class="p-lower-margin font-size-small invitation">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that need coding, I’d love to help
+        you with it.
+      </p>
+      <form action="" class="contact-form">
+        <input class="line-input" type="text" id="fname" placeholder="Name*">
+        <input class="line-input" type="text" id="femail" placeholder="Email*">
+        <textarea class="line-input body-input" type="text" id="fbody" placeholder="Message*"></textarea>
+        <input class="line-input submit-btn" type="submit" value="Get in touch">
+      </form>
+      <p class="p-lower-margin font-size-small">
+        engineerbpk@gmail.com
+      </p>
+      <div class="flex flex-content-center footer-icons">
+        <i class="fa fa-github social-icon"></i>
+        <i class="fa fa-linkedin social-icon"></i>
+        <i class="fa fa-twitter social-icon"></i>
+        <i class="fa fa-home social-icon"></i>
+      </div>
+      <p class="p-lower-margin font-size-small">
+        © 2020 Paul Balitema Kabali
+      </p>
+    </footer>
   </body>
 </html>

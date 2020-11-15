@@ -3,7 +3,7 @@
   --theme-color2: #fff;
   --theme-color3: #F9855B;
   --theme-color4: #423B39;
-  --theme-color5: #a8a7a6;
+  --theme-color5: #CFD2DA;
   ;
 }
 
@@ -180,6 +180,10 @@ a {
 
 /* =================== Small-section-About ==================== */
 
+.about-right {
+  margin: 10% 0 15% 0;
+}
+
 .skills-div {
   border-bottom: 1px solid var(--theme-color5);
   padding-bottom: 20px;
@@ -191,6 +195,41 @@ a {
 
 /* =================== Small-section-Footer ==================== */
 
+.footer {
+  flex-direction: column;
+  background-color: var(--theme-color3);
+  padding: 6vh 6vw 1vh 6vw;
+  color: var(--theme-color2);
+}
+
+.invitation {
+  text-align: center;
+}
+
+.line-input {
+  height: 3em;
+  width: 100%;
+  padding: 5%;
+  margin-bottom: 5%;
+  border-width: 0;
+  font-family: inherit;
+}
+
+.body-input {
+  height: 10em;
+}
+
+.submit-btn {
+  background-color: var(--theme-color4);
+  color: var(--theme-color2);
+}
+
+.footer-icons {
+  border-bottom: 1px solid #FFA07D;
+  width: 100%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
 
 
 /* =================== LARGE SCREEN STYLES ==================== */
@@ -307,10 +346,18 @@ a {
 
   .about-right {
     width: 50%;
+    margin: 0;
   }
   
   /* =================== Large-section-Footer ==================== */
 
-  
+  .footer {
+    padding: 3vw 25vw 1vh 25vw;
+    margin-top: 7%;
+  }
+
+  .invitation {
+    width: 85%;
+  }
 }
 
