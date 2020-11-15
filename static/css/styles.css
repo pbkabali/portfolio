@@ -3,6 +3,7 @@
   --theme-color2: #fff;
   --theme-color3: #F9855B;
   --theme-color4: #423B39;
+  --theme-color5: #a8a7a6;
   ;
 }
 
@@ -156,21 +157,36 @@ a {
   color: var(--theme-color2);
 }
 
+.built-with-group {
+  padding-bottom: 2%;
+}
+
 .built-with {
   color: var(--theme-color2);
   background-color: var(--theme-color4);
   padding: 1%;
-  margin: 2% 2% 2% 0;
+  margin: 2% 2% 0 0;
 }
 
 .btn-1 {
-width: 100%;
-border-radius: 0;
-border-width: 0;
-background-color: var(--theme-color3);
-color: var(--theme-color2);
-padding: 3%;
-font-size: medium;
+  width: 100%;
+  border-radius: 0;
+  border-width: 0;
+  background-color: var(--theme-color3);
+  color: var(--theme-color2);
+  padding: 3%;
+  font-size: medium;
+}
+
+/* =================== Small-section-About ==================== */
+
+.skills-div {
+  border-bottom: 1px solid var(--theme-color5);
+  padding-bottom: 20px;
+}
+
+.skill {
+  margin-right: 10px;
 }
 
 /* =================== Small-section-Footer ==================== */
@@ -279,6 +295,19 @@ font-size: medium;
     width: fit-content;
   }
 
+  /* =================== Large-section-About ==================== */
+
+  .about {
+    align-items: flex-start;
+  }
+  
+  .about-left {
+    width: 38%;
+  }
+
+  .about-right {
+    width: 50%;
+  }
   
   /* =================== Large-section-Footer ==================== */
 
