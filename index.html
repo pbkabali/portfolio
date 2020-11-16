@@ -9,11 +9,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <title>Paul Balitema | Welcome</title>
   </head>
-  <body>
-    <header class="flex header page-margin">
+  <body id="body">
+    <header class="flex header">
       <div class="logo text-color-home font-bold font-size-large">
         PBK
       </div>
@@ -48,6 +48,35 @@
           </div>
         </div>
       </section>
+      <!-- ========================== project detail model start ============================= -->
+      
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <button class="btn-1 close flex flex-content-center">
+              <span>&times;</span>
+            </button>
+            <div id="model-img-div"></div>
+            <div class="page-margin">
+              <a id="see-live" href="http://google.com"><button class="btn-1 model-btn">See Live</button></a>
+              <a id="see-source" href="http://google.com"><button class="btn-1 model-btn">See Source</button></a>
+              <h4 id="model-project-title" class="project-title font-size-large model-btn">Project title</h4>
+              <div id="model-techs" class="flex built-with-group">
+              </div>
+              <div class="brief">
+                <p id="project-description" class="p-lower-margin font-size-small">
+                  Hello I am a software developer! I can help you build a product,
+                  featre or website. Look through some of my work and experience! If
+                  you like what you see and have project you need coded, don’t
+                  hesistate to contact me.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- ========================== project detail model end ============================= -->
       <section id="projects" class="projects">
         <h3 class="heading">My best works</h3>
         <div class="flex flex-content-apart">
@@ -60,7 +89,7 @@
                   <span class="built-with">HTML/CSS</span>
                   <span class="built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button">See the project</button>
+                <button class="btn-1 see-project-button" onclick="ModelFunction(1)">See the project</button>
               </div> 
             </div>
             <div class="hide-large">
@@ -69,7 +98,7 @@
                 <span class="built-with">HTML/CSS</span>
                 <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1">See the project</button>
+              <button class="btn-1" onclick="ModelFunction(1)">See the project</button>
             </div> 
           </div>
           <div class="top-project">
@@ -81,7 +110,7 @@
                   <span class="built-with">HTML/CSS</span>
                   <span class="built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button">See the project</button>
+                <button class="btn-1 see-project-button" onclick="ModelFunction(2)">See the project</button>
               </div> 
             </div>
             <div class="hide-large">
@@ -90,7 +119,7 @@
                 <span class="built-with">HTML/CSS</span>
                 <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1">See the project</button>
+              <button class="btn-1" onclick="ModelFunction(2)">See the project</button>
             </div> 
             </div>
           </div>
@@ -105,7 +134,7 @@
                   <span class="built-with lower-built-with">HTML/CSS</span>
                   <span class="built-with lower-built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button">See the project</button>
+                <button class="btn-1 see-project-button" onclick="ModelFunction(3)">See the project</button>
               </div> 
             </div>
             <div class="hide-large">
@@ -114,7 +143,7 @@
                 <span class="built-with">HTML/CSS</span>
                 <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1">See the project</button>
+              <button class="btn-1" onclick="ModelFunction(3)">See the project</button>
             </div> 
           </div><div class="top-project lower-project">
             <div class="project-image flex lower-project-image flex-align-start">
@@ -125,7 +154,7 @@
                   <span class="built-with lower-built-with">HTML/CSS</span>
                   <span class="built-with lower-built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button">See the project</button>
+                <button class="btn-1 see-project-button" onclick="ModelFunction(4)">See the project</button>
               </div> 
             </div>
             <div class="hide-large">
@@ -134,7 +163,7 @@
                 <span class="built-with">HTML/CSS</span>
                 <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1">See the project</button>
+              <button class="btn-1" onclick="ModelFunction(4)">See the project</button>
             </div> 
           </div><div class="top-project lower-project">
             <div class="project-image flex lower-project-image flex-align-start">
@@ -145,7 +174,7 @@
                   <span class="built-with lower-built-with">HTML/CSS</span>
                   <span class="built-with lower-built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button">See the project</button>
+                <button class="btn-1 see-project-button" onclick="ModelFunction(5)">See the project</button>
               </div> 
             </div>
             <div class="hide-large">
@@ -154,7 +183,7 @@
                 <span class="built-with">HTML/CSS</span>
                 <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1">See the project</button>
+              <button class="btn-1" onclick="ModelFunction(5)">See the project</button>
             </div> 
           </div>
         </div>
@@ -227,5 +256,6 @@
         © 2020 Paul Balitema Kabali
       </p>
     </footer>
+    <script type="text/javascript" src="./static/js/scripts.js"></script> 
   </body>
 </html>
