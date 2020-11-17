@@ -8,23 +8,29 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Paul Balitema | Welcome</title>
   </head>
   <body id="body">
     <header class="flex header">
-      <div class="logo text-color-home font-bold font-size-large">
-        PBK
-      </div>
+      <div class="logo text-color-home font-bold font-size-large">PBK</div>
       <nav class="flex flex-content-around nav font-size-small">
-        <a href="#" class="nav-link text-color-home hide-small display-large-inline font-size-tiny font-bold">&lt/Intro&gt</a>
+        <a
+          href="#"
+          class="nav-link text-color-home hide-small display-large-inline font-size-tiny font-bold"
+          >&lt/Intro&gt</a
+        >
         <a href="#projects" class="nav-link font-size-tiny">Portfolio</a>
         <a href="#about" class="nav-link font-size-tiny">About</a>
         <a href="#contact" class="nav-link font-size-tiny">Contact</a>
       </nav>
     </header>
     <main class="page-margin">
+      <div class="pattern"></div>
       <section class="welcome flex flex-content-end">
         <div class="heading">
           <h2 class="font-size-large">Hi, I am Paul</h2>
@@ -32,172 +38,218 @@
         </div>
         <div class="brief">
           <p class="p-lower-margin font-size-small">
-            Hello I am a software developer! I can help you build a product,
-            featre or website. Look through some of my work and experience! If
-            you like what you see and have project you need coded, don’t
-            hesistate to contact me.
+            I am a software developer! I can help you build a product, featre or
+            website. Look through some of my work and experience! If you like
+            what you see and have project you need coded, don’t hesistate to
+            contact me.
           </p>
         </div>
         <div class="social-icons-div flex">
           <p class="hello heading">My social networks</p>
-          <div class="flex icons-pack text-color-home">
-            <i class="fa fa-github social-icon"></i>
-            <i class="fa fa-linkedin social-icon"></i>
-            <i class="fa fa-twitter social-icon"></i>
-            <i class="fa fa-home social-icon"></i>
+          <div class="flex icons-pack">
+            <a href="https://github.com/pbkabali" class="social-icon text-color-home"><i class="fa fa-github social-icon"></i></a>
+            <a href="https://linkedin.com/in/engineerbpk" class="social-icon text-color-home"><i class="fa fa-linkedin social-icon"></i></a>
+            <a href="https://twitter.com/pbkabali" class="social-icon text-color-home"><i class="fa fa-twitter"></i></a>
           </div>
         </div>
       </section>
       <!-- ========================== project detail model start ============================= -->
-      
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-        
-          <!-- Modal content -->
-          <div class="modal-content">
-            <button class="btn-1 close flex flex-content-center">
-              <span>&times;</span>
-            </button>
-            <div id="model-img-div"></div>
-            <div class="page-margin">
-              <a id="see-live" href="http://google.com"><button class="btn-1 model-btn">See Live</button></a>
-              <a id="see-source" href="http://google.com"><button class="btn-1 model-btn">See Source</button></a>
-              <h4 id="model-project-title" class="project-title font-size-large model-btn">Project title</h4>
-              <div id="model-techs" class="flex built-with-group">
-              </div>
-              <div class="brief">
-                <p id="project-description" class="p-lower-margin font-size-small">
-                  Hello I am a software developer! I can help you build a product,
-                  featre or website. Look through some of my work and experience! If
-                  you like what you see and have project you need coded, don’t
-                  hesistate to contact me.
-                </p>
-              </div>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <button class="btn-1 close flex flex-content-center">
+            <span>&times;</span>
+          </button>
+          <div id="model-img-div"></div>
+          <div class="page-margin">
+            <a id="see-live" href="#" target="blank"
+              ><button class="btn-1 model-btn">See Live</button></a
+            >
+            <a id="see-source" href="#" target="blank"
+              ><button class="btn-1 model-btn">See Source</button></a
+            >
+            <h4
+              id="model-project-title"
+              class="project-title font-size-large model-btn"
+            >
+              Project title
+            </h4>
+            <div id="model-techs" class="flex built-with-group"></div>
+            <div class="brief">
+              <p
+                id="project-description"
+                class="p-lower-margin font-size-small"
+              ></p>
             </div>
           </div>
         </div>
+      </div>
       <!-- ========================== project detail model end ============================= -->
       <section id="projects" class="projects">
-        <h3 class="heading">My best works</h3>
+        <h2 class="heading">My best works</h2>
         <div class="flex flex-content-apart">
           <div class="top-project">
-            <div class="project-image flex flex-align-start">
-              <h4 class="project-title font-size-large">Project title</h4>
+            <div class="project-image flex flex-align-start project1">
+              <h4 class="project-title font-size-large">The NextWeb Rebuild</h4>
               <div class="hide-small flex-content-apart project-details">
                 <div class="flex built-with-group">
-                  <span class="built-with">Ruby on Rails</span>
                   <span class="built-with">HTML/CSS</span>
-                  <span class="built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button" onclick="ModelFunction(1)">See the project</button>
-              </div> 
+                <button
+                  class="btn-1 see-project-button"
+                  onclick="ModelFunction(1)"
+                >
+                  See the project
+                </button>
+              </div>
             </div>
             <div class="hide-large">
               <div class="flex built-with-group">
-                <span class="built-with">Ruby on Rails</span>
                 <span class="built-with">HTML/CSS</span>
-                <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1" onclick="ModelFunction(1)">See the project</button>
-            </div> 
+              <button class="btn-1" onclick="ModelFunction(1)">
+                See the project
+              </button>
+            </div>
           </div>
           <div class="top-project">
-            <div class="project-image flex flex-align-start">
-              <h4 class="project-title font-size-large">Project title</h4>
+            <div class="project-image flex flex-align-start project2">
+              <h4 class="project-title font-size-large">
+                Newsweek Page Rebuild
+              </h4>
               <div class="hide-small flex-content-apart project-details">
                 <div class="flex built-with-group">
-                  <span class="built-with">Ruby on Rails</span>
                   <span class="built-with">HTML/CSS</span>
-                  <span class="built-with">Javascript</span>
+                <span class="built-with">Bootstrap</span>
                 </div>
-                <button class="btn-1 see-project-button" onclick="ModelFunction(2)">See the project</button>
-              </div> 
+                <button
+                  class="btn-1 see-project-button"
+                  onclick="ModelFunction(2)"
+                >
+                  See the project
+                </button>
+              </div>
             </div>
             <div class="hide-large">
               <div class="flex built-with-group">
-                <span class="built-with">Ruby on Rails</span>
                 <span class="built-with">HTML/CSS</span>
-                <span class="built-with">Javascript</span>
+                <span class="built-with">Bootstrap</span>
               </div>
-              <button class="btn-1" onclick="ModelFunction(2)">See the project</button>
-            </div> 
+              <button class="btn-1" onclick="ModelFunction(2)">
+                See the project
+              </button>
             </div>
           </div>
         </div>
         <div class="flex flex-content-apart">
           <div class="top-project lower-project">
-            <div class="project-image flex lower-project-image flex-align-start">
-              <h4 class="project-title font-size-large lower-project-title">Project title</h4>
+            <div
+              class="project-image flex lower-project-image flex-align-start project3"
+            >
+              <h4 class="project-title font-size-large lower-project-title">
+                Cycling Social Platform
+              </h4>
               <div class="hide-small flex-content-apart project-details">
                 <div class="flex built-with-group">
                   <span class="built-with lower-built-with">Ruby on Rails</span>
                   <span class="built-with lower-built-with">HTML/CSS</span>
-                  <span class="built-with lower-built-with">Javascript</span>
                 </div>
-                <button class="btn-1 see-project-button" onclick="ModelFunction(3)">See the project</button>
-              </div> 
+                <button
+                  class="btn-1 see-project-button"
+                  onclick="ModelFunction(3)"
+                >
+                  See the project
+                </button>
+              </div>
             </div>
             <div class="hide-large">
               <div class="flex built-with-group">
                 <span class="built-with">Ruby on Rails</span>
                 <span class="built-with">HTML/CSS</span>
-                <span class="built-with">Javascript</span>
               </div>
-              <button class="btn-1" onclick="ModelFunction(3)">See the project</button>
-            </div> 
-          </div><div class="top-project lower-project">
-            <div class="project-image flex lower-project-image flex-align-start">
-              <h4 class="project-title font-size-large lower-project-title">Project title</h4>
+              <button class="btn-1" onclick="ModelFunction(3)">
+                See the project
+              </button>
+            </div>
+          </div>
+          <div class="top-project lower-project">
+            <div
+              class="project-image flex lower-project-image flex-align-start project4"
+            >
+              <h4 class="project-title font-size-large lower-project-title">
+                JSON Linter
+              </h4>
               <div class="hide-small flex-content-apart project-details">
                 <div class="flex built-with-group">
-                  <span class="built-with lower-built-with">Ruby on Rails</span>
-                  <span class="built-with lower-built-with">HTML/CSS</span>
-                  <span class="built-with lower-built-with">Javascript</span>
+                  <span class="built-with lower-built-with">Ruby</span>
+                  <span class="built-with lower-built-with">RSpec</span>
                 </div>
-                <button class="btn-1 see-project-button" onclick="ModelFunction(4)">See the project</button>
-              </div> 
+                <button
+                  class="btn-1 see-project-button"
+                  onclick="ModelFunction(4)"
+                >
+                  See the project
+                </button>
+              </div>
             </div>
             <div class="hide-large">
               <div class="flex built-with-group">
-                <span class="built-with">Ruby on Rails</span>
-                <span class="built-with">HTML/CSS</span>
-                <span class="built-with">Javascript</span>
+                <span class="built-with">Ruby</span>
+                <span class="built-with">RSpec</span>
               </div>
-              <button class="btn-1" onclick="ModelFunction(4)">See the project</button>
-            </div> 
-          </div><div class="top-project lower-project">
-            <div class="project-image flex lower-project-image flex-align-start">
-              <h4 class="project-title font-size-large lower-project-title">Project title</h4>
+              <button class="btn-1" onclick="ModelFunction(4)">
+                See the project
+              </button>
+            </div>
+          </div>
+          <div class="top-project lower-project">
+            <div
+              class="project-image flex lower-project-image flex-align-start project5"
+            >
+              <h4 class="project-title font-size-large lower-project-title">
+                Live Results
+              </h4>
               <div class="hide-small flex-content-apart project-details">
                 <div class="flex built-with-group">
-                  <span class="built-with lower-built-with">Ruby on Rails</span>
-                  <span class="built-with lower-built-with">HTML/CSS</span>
-                  <span class="built-with lower-built-with">Javascript</span>
+                  <span class="built-with lower-built-with">React-Native</span>
                 </div>
-                <button class="btn-1 see-project-button" onclick="ModelFunction(5)">See the project</button>
-              </div> 
+                <button
+                  class="btn-1 see-project-button"
+                  onclick="ModelFunction(5)"
+                >
+                  See the project
+                </button>
+              </div>
             </div>
             <div class="hide-large">
               <div class="flex built-with-group">
-                <span class="built-with">Ruby on Rails</span>
-                <span class="built-with">HTML/CSS</span>
-                <span class="built-with">Javascript</span>
+                <span class="built-with lower-built-with">React-Native</span>
               </div>
-              <button class="btn-1" onclick="ModelFunction(5)">See the project</button>
-            </div> 
+              <button class="btn-1" onclick="ModelFunction(5)">
+                See the project
+              </button>
+            </div>
           </div>
         </div>
       </section>
       <section id="about" class="flex about flex-content-apart">
         <div class="about-left">
-          <h3 class="heading">About me</h3>
+          <h2 class="heading">About me</h2>
           <div class="narration">
             <p class="p-lower-margin font-size-small">
-              In three sentences describe who you are as a proffessional. Look
-              through some of my work and experience! If you like what you see
-              and have project you need coded, don’t hesistate to contact me.
+              I am a good leader, fine collaborator and a quick learner who
+              loves my work and does it with a keen attention to detail to keep
+              with the requirements of the customer.
             </p>
-            <button class="btn-1 see-project-button">See my resume</button>
+            <a
+              href="https://docs.google.com/document/d/1H_gf-eO8bMOzhjD8s9eUEiWEYN5-4c1WRKA0PJvu1Jk/edit?usp=sharing"
+              target="blank"
+              ><button class="btn-1 see-project-button">
+                See my resume
+              </button></a
+            >
           </div>
         </div>
         <div class="about-right">
@@ -231,31 +283,43 @@
       </section>
     </main>
     <footer id="contact" class="footer flex">
-      <h3 class="heading font-size-large invitation">Interested in collaborating?</h3>
+      <h3 class="heading font-size-large invitation">
+        Interested in collaborating?
+      </h3>
       <p class="p-lower-margin font-size-small invitation">
         If you have an application you are interested in developing, a feature
-        that you need built or a project that need coding, I’d love to help
-        you with it.
+        that you need built or a project that need coding, I’d love to help you
+        with it.
       </p>
       <form action="" class="contact-form">
-        <input class="line-input" type="text" id="fname" placeholder="Name*">
-        <input class="line-input" type="text" id="femail" placeholder="Email*">
-        <textarea class="line-input body-input" type="text" id="fbody" placeholder="Message*"></textarea>
-        <input class="line-input submit-btn" type="submit" value="Get in touch">
+        <input class="line-input" type="text" id="fname" placeholder="Name*" />
+        <input
+          class="line-input"
+          type="text"
+          id="femail"
+          placeholder="Email*"
+        />
+        <textarea
+          class="line-input body-input"
+          type="text"
+          id="fbody"
+          placeholder="Message*"
+        ></textarea>
+        <input
+          class="line-input submit-btn"
+          type="submit"
+          value="Get in touch"
+        />
       </form>
-      <p class="p-lower-margin font-size-small">
-        engineerbpk@gmail.com
-      </p>
+      <p class="p-lower-margin font-size-small">engineerbpk@gmail.com</p>
       <div class="flex flex-content-center footer-icons">
-        <i class="fa fa-github social-icon"></i>
-        <i class="fa fa-linkedin social-icon"></i>
-        <i class="fa fa-twitter social-icon"></i>
-        <i class="fa fa-home social-icon"></i>
+        <a href="https://github.com/pbkabali" class="social-icon text-color-white"><i class="fa fa-github social-icon"></i></a>
+        <a href="https://linkedin.com/in/engineerbpk" class="social-icon text-color-white"><i class="fa fa-linkedin social-icon"></i></a>
+        <a href="https://twitter.com/pbkabali" class="social-icon text-color-white"><i class="fa fa-twitter"></i></a>
       </div>
-      <p class="p-lower-margin font-size-small">
-        © 2020 Paul Balitema Kabali
-      </p>
+      <p class="p-lower-margin font-size-small">© 2020 Paul Balitema Kabali</p>
     </footer>
-    <script type="text/javascript" src="./static/js/scripts.js"></script> 
+    <div class="pattern bottom-pattern"></div>
+    <script type="text/javascript" src="./static/js/scripts.js"></script>
   </body>
 </html>

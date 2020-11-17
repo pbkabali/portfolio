@@ -19,12 +19,12 @@
 }
 
 body {
+  position: relative;
   width: 100%;
   margin: 0;
   padding: 0;
   background-color: var(--theme-color1);
   font-family: 'Poppins', sans-serif;
-  /* background: url(https://s3-alpha-sig.figma.com/img/abe3/5840/d659d5e552b46a354ae50dde02fbcac5?Expires=1606089600&Signature=SnpactX0vEXE~RlDvSm~S8-qZfL0mfDMmAfEGKaw4ZMUh~M-nS6makhtkmP6kq1wObbt0bMbFHJ99Wb8JkuVSXDpMCaj3BSJGO18jHv9p8SKh0Jkd5eBQrscIM6aTNOjpOsi2bQHd5uIBtb3K9iQ-whLWVUK3cGtTO6qxl1VgVFY8HxsLLdtG0MtX~6YL9IQVo8jUs6VQKp7in39LkbKw7tDttriWw2i5YdxQ7niFYnwJ7BkB2y9s8fhishPsaEV2FBKQjPXlAvbGwExUY0eHemZDuQpq3TpWY~JHGUyTyOa8RvdyhoMrDk4rlsYyPSV24fhI2dcP7~NIn8eaEV2Sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA); */
 }
 
 a {
@@ -73,6 +73,10 @@ a {
 
 .text-color-home {
   color: var(--theme-color3);
+}
+
+.text-color-white {
+  color: var(--theme-color2);
 }
 
 .bg-color-home {
@@ -155,11 +159,31 @@ a {
 .project-image {
   height: 65vw;
   padding: 10%;
-  background-color: red;
+  background-size: 100% 100%;
+}
+
+.project1 {
+  background-image: url('../graphics/macbook-TNW-mockup.png');
+}
+
+.project2 {
+  background-image: url('../graphics/Newsweek_mac.png');
+}
+
+.project3 {
+  background-image: url('../graphics/MA_Cycles.png');
+}
+
+.project4 {
+  background-image: url('../graphics/JSON_Linter.png');
+}
+
+.project5 {
+  background-image: url('../graphics/FMULive_thumb.png');
 }
 
 .project-title {
-  color: var(--theme-color2);
+  color: var(--theme-color5);
 }
 
 .built-with-group {
@@ -210,11 +234,11 @@ a {
   background-color: var(--theme-color2);
   margin: auto;
   width: 80%;
+  padding-bottom: 20px;
 }
 
 #model-img-div {
   height: 60vw;
-  background-image: url(https://media.wired.com/photos/5ecec6a82ea7ea36d6c08061/master/w_2560%2Cc_limit/Gear-Apple-MacBook-13-inch-2020-after-effects-SOURCE-Apple.jpg);
   background-size: 100% 100%;
 }
 
@@ -346,6 +370,23 @@ a {
 
   .icons-pack {
     margin-left: 5%;
+  }
+
+  .pattern {
+    position: absolute;
+    width: 30%;
+    height: 150vh;
+    background: url(https://s3-alpha-sig.figma.com/img/abe3/5840/d659d5e552b46a354ae50dde02fbcac5?Expires=1606089600&Signature=SnpactX0vEXE~RlDvSm~S8-qZfL0mfDMmAfEGKaw4ZMUh~M-nS6makhtkmP6kq1wObbt0bMbFHJ99Wb8JkuVSXDpMCaj3BSJGO18jHv9p8SKh0Jkd5eBQrscIM6aTNOjpOsi2bQHd5uIBtb3K9iQ-whLWVUK3cGtTO6qxl1VgVFY8HxsLLdtG0MtX~6YL9IQVo8jUs6VQKp7in39LkbKw7tDttriWw2i5YdxQ7niFYnwJ7BkB2y9s8fhishPsaEV2FBKQjPXlAvbGwExUY0eHemZDuQpq3TpWY~JHGUyTyOa8RvdyhoMrDk4rlsYyPSV24fhI2dcP7~NIn8eaEV2Sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  .bottom-pattern {
+    left: 0;
+    bottom: 0;
+    top: auto;
+    right: auto;
   }
 
   /* =================== Large-section-Projects ==================== */
